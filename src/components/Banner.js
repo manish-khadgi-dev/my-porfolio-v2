@@ -34,6 +34,7 @@ const Banner = () => {
 
             <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
               <span className="mr-4 "> I am a </span>
+
               <TypeAnimation
                 sequence={[
                   "MERN stack Developer",

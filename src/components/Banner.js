@@ -37,9 +37,9 @@ const Banner = () => {
 
               <TypeAnimation
                 sequence={[
-                  "MERN stack Developer",
+                  "Web Developer",
                   2000,
-                  "Software Engineer",
+                  "Engineer",
                   2000,
                   "UI Designer   ",
                   2000,

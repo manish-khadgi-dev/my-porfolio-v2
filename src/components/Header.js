@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo.png";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* logo */}
           <a href="#">
-            <img src={Logo} alt="" width={100} className="" />
+            <img src={Logo} alt="" width={100} className=" mix-blend-lighten" />
           </a>
 
           {/* button */}

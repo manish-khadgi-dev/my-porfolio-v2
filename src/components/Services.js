@@ -11,19 +11,19 @@ const services = [
   {
     name: "UI/UX Design",
     description:
-      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis eveniet accusamus quo? Aperiam aut nam odit a beatae! ",
+      " Able to deliver visually enaging web applications with outstanding UI/UX. ",
     link: "Learn More",
   },
   {
     name: "Website Development",
     description:
-      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis eveniet accusamus quo? Aperiam aut nam odit a beatae! ",
+      "When creating a scalable website, I keep my clients' best interests in mind and do my best to fulfil or even surpass their expectations for the way the product or service is delivered. ",
     link: "Learn More",
   },
   {
-    name: "E-commerce Development",
+    name: "Custom CMS Development",
     description:
-      " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis eveniet accusamus quo? Aperiam aut nam odit a beatae! ",
+      " Every business would prefer a custom-tailored CMS system to support their workflow.",
     link: "Learn More",
   },
 ];

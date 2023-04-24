@@ -2,7 +2,7 @@ import React from "react";
 //images
 import Image from "../assets/avatar.svg";
 //icons
-import { FaGithub, FaYoutube, FaDribble, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 //type animation
 import { TypeAnimation } from "react-type-animation";
 //motion
@@ -32,14 +32,14 @@ const Banner = () => {
               Manish <span> KHADGI</span>
             </h1>
 
-            <div className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]">
+            <div className="mb-6 text-[26px] lg:text-[45px] font-secondary font-semibold uppercase leading-[1]">
               <span className="mr-4 "> I am a </span>
 
               <TypeAnimation
                 sequence={[
                   "Web Developer",
                   2000,
-                  "Full-Stack Dev",
+                  "Full-Stack Developer",
                   2000,
                   "UI/UX Designer   ",
                   2000,
@@ -64,13 +64,13 @@ const Banner = () => {
 
             {/* {  Socials }  */}
             <div className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
-                <FaYoutube />
+              <a href="mailto:manishkhadgi123#gmail.com">
+                <FaEnvelope />
               </a>
-              <a href="#">
+              <a href="https://github.com/manish-khadgi-dev">
                 <FaGithub />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/manishkhadgi/">
                 <FaLinkedin />
               </a>
             </div>

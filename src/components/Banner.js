@@ -52,8 +52,9 @@ const Banner = () => {
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              consequuntur quibusdam quis repellat quos deserunt odit quia
+              I'm a multidisciplinary developer and designer from Sydney,
+              Australia with a passion for creating, engaging and entertaining
+              user experience using MERN stack.
             </p>
             <div className="flex max-w-max gap-x-6 items-center mb-6 mx-auto lg:mx-0">
               <button className="btn btn-lg mt-2 ">Contact me </button>

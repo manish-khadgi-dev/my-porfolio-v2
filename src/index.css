@@ -5,10 +5,10 @@
 .btn {
   background: linear-gradient(
     92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
+    #d90bce 21.43%,
+    #bcadc2 50.63%,
+    #cbd7dc 100%,
+    #b9bbc4 117.04%
   );
   box-shadow: 0px 4.42184px 107.23px rgba(86, 92, 255, 0.51);
 }
@@ -35,8 +35,8 @@
 }
 
 .active {
-  color: #fff;
-  padding: 1rem;
+  color: #110202;
+  padding: rem;
   border-radius: 100%;
 }
 

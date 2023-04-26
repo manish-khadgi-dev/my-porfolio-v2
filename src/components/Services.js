@@ -38,10 +38,10 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg- lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-[-3rem] bg-contain "
+            className="flex-1 lg:bg- lg:bg-bottom bg-no-repeat mb-12 lg:mb-[-3rem] bg-contain "
           >
             <h2 className="h2 text-accent mb-4"> What I Do.</h2>
-            <h3 className="h3 max-w-[455px] mb-10">
+            <h3 className="h4 max-w-[455px] mb-10">
               I'm a Freelance Full-stack-developer with experience in multiple
               projects
             </h3>
@@ -64,7 +64,7 @@ const Services = () => {
                 const { name, description, link } = service;
                 return (
                   <div
-                    className="border-b border-white/20 h-[146px] mb-[38px] flex"
+                    className="border-b border-black/30 h-[146px] mb-[38px] flex"
                     key={index}
                   >
                     <div className="max-w-[476px]">

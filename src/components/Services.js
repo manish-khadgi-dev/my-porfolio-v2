@@ -42,8 +42,10 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-4"> What I Do.</h2>
             <h3 className="h4 max-w-[455px] mb-10">
-              I'm a Freelance Full-stack-developer with experience in multiple
-              projects
+              I build digital experiences and products with my passion and
+              abilities.
+              <hr />
+              Below are some of the services I provide.
             </h3>
 
             <a href="https://my-portfolio-chi-liard.vercel.app/projects">

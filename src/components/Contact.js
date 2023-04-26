@@ -36,12 +36,12 @@ const Contact = () => {
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start "
           >
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white"
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-dark"
               type="text"
               placeholder="Your name"
             />
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white"
+              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-dark"
               type="text"
               placeholder="Your email"
             />

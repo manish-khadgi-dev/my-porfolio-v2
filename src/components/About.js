@@ -36,9 +36,10 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h3 className="h3 max-w-[450px ] mb-16 mt-20">
-              I'm a Freelancer Full-stack-developer and designer from
-              Sydney,Australia with experience in Multiple Projects
+            <h3 className="h4 max-w-[450px ] mb-16 mt-20">
+              I adore programming and taking ideas from concept to completion.
+              Personally, I build stunning web apps from scratch using
+              JavaScript and its framework.
             </h3>
 
             <h2 className="h2 text-accent mt-3 "> Tech Stack Skills</h2>

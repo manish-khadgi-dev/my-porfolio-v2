@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logos.png";
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
 
           {/* button */}
 
-          <button className="btn btn-sm">Work with me</button>
+          <button className=" btn btn-sm  fw-bold">Work with me</button>
         </div>
       </div>
     </header>

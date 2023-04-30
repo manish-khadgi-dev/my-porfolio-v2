@@ -49,7 +49,7 @@ const Services = () => {
             </h3>
 
             <a href="https://my-portfolio-chi-liard.vercel.app/projects">
-              <button className="btn btn-sm ">See My Work</button>
+              <button className="button-89 mt-4 ">See My Work</button>
             </a>
           </motion.div>
 

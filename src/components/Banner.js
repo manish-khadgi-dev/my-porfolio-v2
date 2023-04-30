@@ -57,7 +57,7 @@ const Banner = () => {
               user experience using MERN stack.
             </p>
             <div className="flex max-w-max gap-x-6 items-center mb-6 mx-auto lg:mx-0">
-              <button className="btn btn-lg mt-2 ">Contact me </button>
+              <button className="button-89 mt-2 ">Contact me </button>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>

@@ -32,7 +32,7 @@ const Work = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
                 quasi ut quas quisquam ex rerum! Explicabo, odio delectus a
               </p>
-              <button className="btn btn-sm"> View all Projects </button>
+              <button className="button-89"> View all Projects </button>
             </div>
 
             {/* { Image 1} */}

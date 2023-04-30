@@ -36,7 +36,7 @@ const Contact = () => {
             className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start "
           >
             <input
-              className="bg-transparent border-b py-3 outline-none w-full placeholder:text-dark"
+              className=" bg-transparent border-b py-3 outline-none w-full placeholder:text-dark"
               type="text"
               placeholder="Your name"
             />
@@ -50,7 +50,7 @@ const Contact = () => {
               className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12"
               placeholder="Your message "
             ></textarea>
-            <button className="btn btn-lg"> Send message </button>
+            <button className="button-89 mb-1"> Send message </button>
           </motion.form>
         </div>
       </div>

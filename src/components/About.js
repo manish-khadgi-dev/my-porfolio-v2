@@ -15,7 +15,7 @@ const About = () => {
 
   return (
     <section className="section" id="about">
-      <div className="container mx-auto p-5">
+      <div className="container mx-auto ">
         <h2 className="h2 text-accent mt-[10rem] flex justify-center ">
           About Me.
         </h2>
@@ -36,7 +36,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h3 className="h4 max-w-[450px ] mb-16 mt-20">
+            <h3 className="h4 max-w-[450px ] mb-16 mt-20 lg:py-20 sm:text-[20px]">
               I adore programming and taking ideas from concept to completion.
               Personally, I build stunning web apps from scratch using
               JavaScript and its framework.

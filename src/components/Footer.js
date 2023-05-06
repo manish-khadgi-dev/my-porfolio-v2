@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="container mx-auto">
         <div className="text-center mb-3">
           <h3 className="fw-bold"> Get in touch </h3>
-          <p className="mt-3 h1">
+          <p className="mt-3 h4">
             My inbox is always open. Whether you have a question or just want to
             say hi, I'll try my best to get back to you!
           </p>

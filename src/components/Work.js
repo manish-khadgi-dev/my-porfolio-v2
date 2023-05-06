@@ -9,13 +9,13 @@ import { fadeIn } from "../variants";
 //images
 import Img1 from "../assets/portfolio-img1.png";
 import Img2 from "../assets/portfolio-img2.png";
-import Img3 from "../assets/portfolio-img3.png";
+import Img3 from "../assets/portfolio--img3.png";
 
 const Work = () => {
   return (
     <section className="section" id="work">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-x-10">
+        <div className="flex flex-col lg:flex-row gap-x-14">
           <motion.div
             variants={fadeIn("right", 0.2)}
             initial="hidden"
@@ -29,8 +29,9 @@ const Work = () => {
                 My Latest <br /> Work
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-                quasi ut quas quisquam ex rerum! Explicabo, odio delectus a
+                Something that I love about software development is the
+                opportunity to work with people from a wide range of
+                disciplines. Below are some of my work done using MERN stacks
               </p>
               <button className="button-89"> View all Projects </button>
             </div>
@@ -49,10 +50,31 @@ const Work = () => {
               />
               {/* { Prettier } */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> UI/UX Desginer</span>
+                <span className="text-gradient"> </span>
                 {/* { Title } */}
                 <div className="absolute- -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
-                  <span className="text-3xl text-white">Project Title</span>
+                  <span className="text-3xl text-white">
+                    Prank Calculator Project
+                  </span>
+                  <div>
+                    <a
+                      href="https://react-prank-calculator.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white  "
+                    >
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    {"  "} |{" "}
+                    <a
+                      href="https://github.com/moonishkale/React-Prank-Calculator"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -63,7 +85,7 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-10"
+            className="flex-1 flex flex-col gap-y-3"
           >
             {/* { Image 2 } */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -79,14 +101,29 @@ const Work = () => {
               />
               {/* { Prettier } */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> Movie Search API</span>
+                <span className="text-gradient"></span>
                 {/* { Title } */}
                 <div className="absolute- -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
-                  <span className="text-3xl text-white">
-                    <i class="fa-duotone fa-arrow-up-right-from-square">
-                      <link rel="stylesheet" href="www" />
-                    </i>
-                  </span>
+                  <span className="text-3xl text-white">Movie Search API</span>
+                  <div>
+                    <a
+                      href="https://movie-react-delta.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white"
+                    >
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    {"  "} |{" "}
+                    <a
+                      href="https://github.com/moonishkale/Movie-Reac"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -99,16 +136,35 @@ const Work = () => {
               {/* { img 2} */}
 
               <img
-                className="group-hover:scale-125 transition-all duration-500"
+                className="group-hover:scale-125 transition-all duration-500 "
                 src={Img3}
                 alt=""
               />
               {/* { Prettier } */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient"> UI/UX Desginer</span>
+                <span className="text-gradient"> </span>
                 {/* { Title } */}
-                <div className="absolute- -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50">
-                  <span className="text-3xl text-white">Project Title</span>
+                <div className="absolute- -bottom-full left-12 group-hover:bottom-14 transition-all duration-500 z-50 ">
+                  <span className="text-3xl text-white">My Portfolio</span>
+                  <div>
+                    <a
+                      href="https://my-portfolio-chi-liard.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white  "
+                    >
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    {"  "} |{" "}
+                    <a
+                      href="https://github.com/manish-khadgi-dev/my-portfolio"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white"
+                    >
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

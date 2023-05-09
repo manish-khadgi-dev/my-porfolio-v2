@@ -1,8 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
 import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_05nq12o",
+        "template_pg4g7rm",
+        form.current,
+        "OG4dKWkCmx7abuXh9"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          return alert("message sent succesfully");
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section className="py-16 lg:section " id="contact">
       <div className="container mx-auto">
@@ -29,6 +54,8 @@ const Contact = () => {
           {/* { form } */}
 
           <motion.form
+            ref={form}
+            onSubmit={sendEmail}
             variants={fadeIn("left", 0.2)}
             initial="hidden"
             whileInView={"show"}
@@ -36,26 +63,34 @@ const Contact = () => {
             className="flex-1 border-2 border-accent rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start "
           >
             <input
+              name="user_name"
               className=" bg-transparent border-b py-3 outline-none w-full placeholder:text-dark"
               type="text"
               placeholder="Your name"
             />
             <input
+              name="user_email"
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-dark"
               type="text"
               placeholder="Your email"
             />
 
             <textarea
+              name="message"
               className="bg-transparent border-b py-12 outline-none w-full placeholder:text-dark focus:border-accent transition-all resize-none mb-12"
               placeholder="Your message "
             ></textarea>
-            <button className="button-89 mb-1"> Send message </button>
+            <button
+              type="submit"
+              value="Send"
+              className="bg-accent hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Button
+            </button>
           </motion.form>
         </div>
       </div>
     </section>
   );
 };
-
 export default Contact;

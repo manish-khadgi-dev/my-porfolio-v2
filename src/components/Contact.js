@@ -83,9 +83,9 @@ const Contact = () => {
             <button
               type="submit"
               value="Send"
-              className="bg-accent hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-accent hover:bg-pinks-700 text-white font-bold py-2 px-4 rounded"
             >
-              Button
+              Submit
             </button>
           </motion.form>
         </div>

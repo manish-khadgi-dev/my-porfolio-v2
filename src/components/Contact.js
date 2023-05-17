@@ -85,7 +85,7 @@ const Contact = () => {
               value="Send"
               className="bg-accent hover:bg-pinks-700 text-white font-bold py-2 px-4 rounded"
             >
-              Submit
+              Send
             </button>
           </motion.form>
         </div>
